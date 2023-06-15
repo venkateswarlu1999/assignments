@@ -1,18 +1,18 @@
 
 #1.print the largest of the three numbers using only if statement
-num1 = int(input('Enter your first number: '))
-num2 = int(input('Enter your second number: '))
-num3 = int(input('Enter your third number: '))
-if num1 > num2 :
-    if num1 < num2:
-        print('num2 is bigger then num1: num2 = ',num2)
-    else:
-        print('num2 is not bigger then num1: num1 = ',num1)
-elif num2 > num3:
-    if num2 < num3:
-        print('num2 is not bigger then num3: num3 = ',num3)
-    else:
-        print('num2 is bigger then num3: num2 = ',num2)
+# num1 = int(input('Enter your first number: '))
+# num2 = int(input('Enter your second number: '))
+# num3 = int(input('Enter your third number: '))
+# if num1 > num2 :
+#     if num1 < num2:
+#         print('num2 is bigger then num1: num2 = ',num2)
+#     else:
+#         print('num2 is not bigger then num1: num1 = ',num1)
+# elif num2 > num3:
+#     if num2 < num3:
+#         print('num2 is not bigger then num3: num3 = ',num3)
+#     else:
+#         print('num2 is bigger then num3: num2 = ',num2)
 
 
 #2.check whether a person is eligible to vote or not
