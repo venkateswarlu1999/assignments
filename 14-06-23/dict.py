@@ -80,3 +80,8 @@
 #     d[i]=c
 # print(d)
 
+# s='hello word'
+# w=s.split()
+# r=''.join(reversed(w))
+# print(r)
+
