@@ -94,9 +94,12 @@
 # print(reversed_number)
 
 # 14: Use a loop to display elements from a given list present at odd index positions.
-# list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # for i in range(1, len(list), 2):
 #     print(list[i])
+for i in range(len(list)-1):
+    if list[i]%2!=0:
+        print(i)
 
 # 15: Calculate the cube of all numbers from 1 to a given number.
 # N = int(input("Enter a range of numbers: "))
