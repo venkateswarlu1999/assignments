@@ -107,7 +107,6 @@
 # @dec1
 # def n():
 #     return 10
-
 # print(n())   
 # decarater=dec2(dec1(n))
 
