@@ -1,38 +1,38 @@
-class Node:
-    def __init__(self,data):
-        self.data = data
-        self.next = None
+# class Node:
+#     def __init__(self,data):
+#         self.data = data
+#         self.next = None
 
-class LinkedList:
-    def __init__(self):
-        self.head = None
+# class LinkedList:
+#     def __init__(self):
+#         self.head = None
 
-    def append(self, data):
-        newNode = Node(data)
-        if self.head is None:
-            self.head = newNode
-            return
-        current = self.head
-        while current.next:
-            current = current.next
-        current.next = newNode
+#     def append(self, data):
+#         newNode = Node(data)
+#         if self.head is None:
+#             self.head = newNode
+#             return
+#         current = self.head
+#         while current.next:
+#             current = current.next
+#         current.next = newNode
 
-    def displayLL(self):
-        current = self.head
-        while current:
-            print(current.data, end = ", ")
-            current = current.next
-        print("None")
-
-
-l = LinkedList()
-l.append("USA")
-l.append("India")
-l.append("Nepal")
-l.append("UK")
+#     def displayLL(self):
+#         current = self.head
+#         while current:
+#             print(current.data, end = ", ")
+#             current = current.next
+#         print("None")
 
 
-l.displayLL()
+# l = LinkedList()
+# l.append("USA")
+# l.append("India")
+# l.append("Nepal")
+# l.append("UK")
+
+
+# l.displayLL()
 
 
 
@@ -118,8 +118,11 @@ l.append("UK")
 l.insertionAtBegining("Kothaguda")
 # print(l.dAB())
 
-print(l.searching("Nepal"))
+# print(l.searching("Nepal"))
+
 l.displayLL()
+# l.deletingByKey('Kothaguda')
 
+l.dAB()
 
-# l.displayLL()
+l.displayLL()
