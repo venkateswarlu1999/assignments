@@ -15,8 +15,6 @@ def maxSubArray(nums):
                 maxSum = currentSum
                 start = i
                 end  = j
-    print(start)
-    print(end)
     return(maxSum,nums[start:end+1])
 nums = [-2,1,-3,4,-1,2,1,-5,4]
 print(maxSubArray(nums))
